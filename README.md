@@ -4,11 +4,12 @@ A modern and responsive portfolio website built with React, TypeScript, and Mate
 
 ## Features
 
-- Clean and modern design
+- Clean and modern design with dark theme
 - Responsive layout
-- About section
-- Experience/Skills section
-- Projects showcase
+- Smooth animations and transitions
+- About section with profile
+- Experience/Skills section with logos
+- Projects showcase with filtering
 - Contact form
 - Material-UI components
 - TypeScript support
@@ -22,7 +23,7 @@ A modern and responsive portfolio website built with React, TypeScript, and Mate
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Harish3005-cloud/portfolio.git
 ```
 
 2. Navigate to the project directory:
@@ -61,23 +62,27 @@ The build files will be created in the `build` directory.
 - TypeScript
 - Material-UI
 - React Router
-- Emotion (for styled components)
+- Dark Theme
+- CSS Animations
 
 ## Project Structure
 
 ```
 src/
   ├── components/     # React components
+  ├── assets/        # Images and other assets
+  ├── theme.ts       # Theme configuration
   ├── App.tsx        # Main App component
   └── index.tsx      # Entry point
 ```
 
-## Customization
+## Components
 
-1. Update the content in each component to match your personal information
-2. Modify the theme in `App.tsx` to change colors and typography
-3. Add your own projects in the `Projects.tsx` component
-4. Update contact information in the `Contact.tsx` component
+- Header: Navigation and profile
+- About: Personal introduction
+- Experience: Skills and expertise
+- Projects: Portfolio showcase
+- Contact: Contact information
 
 ## License
 
