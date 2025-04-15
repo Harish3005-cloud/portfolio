@@ -1,7 +1,6 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, Container, Box, Avatar, Button } from '@mui/material';
+import { AppBar, Toolbar, Typography, Container, Box, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
-import profilePic from '../assets/img/harish1.jpg';
 
 const Header: React.FC = () => {
   return (
@@ -15,25 +14,27 @@ const Header: React.FC = () => {
       }}
     >
       <Container>
-        
-            <Typography 
-              variant="h6" 
-              component={Link} 
-              to="/" 
-              sx={{ 
-                textDecoration: 'none', 
-                color: 'inherit',
-                fontWeight: 600,
-                letterSpacing: '0.5px',
-                transition: 'all 0.3s ease-in-out',
-                '&:hover': {
-                  color: 'primary.main',
-                }
-              }}
-            >
-              <b>Harish E</b>
-            </Typography>
-          </Box>
+        <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          {/* Logo or Name */}
+          <Typography 
+            variant="h6" 
+            component={Link} 
+            to="/" 
+            sx={{ 
+              textDecoration: 'none', 
+              color: 'inherit',
+              fontWeight: 600,
+              letterSpacing: '0.5px',
+              transition: 'all 0.3s ease-in-out',
+              '&:hover': {
+                color: 'primary.main',
+              }
+            }}
+          >
+            <b>Harish E</b>
+          </Typography>
+
+          {/* Navigation Links */}
           <Box sx={{ display: 'flex', gap: 2 }}>
             {['About', 'Experience', 'Projects', 'Contact'].map((item) => (
               <Button
@@ -75,4 +76,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header; 
+export default Header;
