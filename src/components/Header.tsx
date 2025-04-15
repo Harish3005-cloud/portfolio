@@ -15,23 +15,7 @@ const Header: React.FC = () => {
       }}
     >
       <Container>
-        <Toolbar sx={{ justifyContent: 'space-between' }}>
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-            <Avatar
-              src={profilePic}
-              alt="Harish"
-              sx={{ 
-                width: 56, 
-                height: 56,
-                border: '2px solid',
-                borderColor: 'primary.main',
-                transition: 'all 0.3s ease-in-out',
-                '&:hover': {
-                  transform: 'scale(1.1)',
-                  boxShadow: '0 0 20px rgba(144, 202, 249, 0.5)',
-                }
-              }}
-            />
+        
             <Typography 
               variant="h6" 
               component={Link} 
