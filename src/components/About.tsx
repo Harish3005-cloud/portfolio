@@ -79,7 +79,7 @@ const About: React.FC = () => {
 
         <Paper elevation={3} sx={{ p: 4, mt: 4 }}>
           <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.8 }}>
-            Hi, I'm <b>Haeish</b>, a passionate developer with a strong background in web development, data analysis, and programming. 
+            Hi, I'm <b>Harish</b>, a passionate developer with a strong background in web development, data analysis, and programming. 
             I love building intuitive and interactive applications, whether it's recreating popular platforms like <b>Amazon</b>,
             <b>Myntra</b> , and <b>Spotify</b>, developing engaging games like  <b>Flappy Bird</b>
             , or crafting intelligent solutions like a <b>Personal Voice Assistant</b>. <b>With expertise in HTML, CSS, JavaScript, and frameworks for web development</b>,
